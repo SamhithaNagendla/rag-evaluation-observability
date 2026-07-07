@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.env
+data/results/*.db
+.DS_Store
+
+# Local virtual environment
+.venv/
+venv/
+
+# Python cache and test output
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment files
+.env
+
+# Mac system files
+.DS_Store
