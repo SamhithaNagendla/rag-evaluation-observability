@@ -1,0 +1,18 @@
+[
+  {
+    "id": "d1",
+    "text": "Raft elects a leader and replicates a log using majority agreement. It tolerates crash failures but not Byzantine behavior."
+  },
+  {
+    "id": "d2",
+    "text": "A feature store prevents training serving skew by applying point in time joins that exclude future events."
+  },
+  {
+    "id": "d3",
+    "text": "Kafka consumer groups distribute partitions among consumers and preserve ordering within each partition."
+  },
+  {
+    "id": "d4",
+    "text": "Shadow deployment runs a candidate model without changing the user response and logs results for comparison."
+  }
+]

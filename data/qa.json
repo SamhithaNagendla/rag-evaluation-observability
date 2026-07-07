@@ -1,0 +1,20 @@
+[
+  {
+    "id": "q1",
+    "question": "How does Raft replicate data?",
+    "relevant_doc_ids": ["d1"],
+    "reference_answer": "Raft replicates a leader's ordered log to followers and commits entries after majority agreement."
+  },
+  {
+    "id": "q2",
+    "question": "How can a feature store avoid future leakage?",
+    "relevant_doc_ids": ["d2"],
+    "reference_answer": "It uses point-in-time joins that exclude events occurring after the prediction timestamp."
+  },
+  {
+    "id": "q3",
+    "question": "What does shadow deployment do?",
+    "relevant_doc_ids": ["d4"],
+    "reference_answer": "It runs a candidate model without changing the user response and logs its outputs for comparison."
+  }
+]
