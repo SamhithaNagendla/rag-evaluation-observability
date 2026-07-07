@@ -43,3 +43,16 @@ The run is saved and can be retrieved through `/runs` and `/runs/{run_id}`.
 LLM-as-judge scores are useful comparative signals, not objective ground truth. The labeled retrieval
 metrics remain deterministic, and production use should evaluate judge agreement against human
 reviewers before relying on the scores for release decisions.
+
+## Local Test Result
+
+This project was tested locally on macOS using Python 3.11.
+
+```bash
+pytest
+
+
+6 passed, 1 warning
+Test coverage: 95.54%
+
+```
